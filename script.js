@@ -55,9 +55,15 @@ function updateDOM(timeUnits) {
   // Update each element with animation
   Object.entries(timeUnits).forEach(([unit, value]) => {
     if (elements[unit]) {
-      elements[unit].textContent = formatNumber(value);
-      elements[unit].classList.add('pulse');
-      setTimeout(() => elements[unit].classList.remove('pulse'), 1000);
+      const currentValue = parseInt(elements[unit].textContent) || 0;
+      const newValue = value;
+      
+      // Only animate if value changed
+      if (currentValue !== newValue) {
+        elements[unit].classList.add('pulse');
+        elements[unit].textContent = formatNumber(newValue);
+        setTimeout(() => elements[unit].classList.remove('pulse'), 600);
+      }
     }
   });
 }
