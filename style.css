@@ -622,9 +622,9 @@ body::before {
 }
 
 .semester-title {
- font-size: 2.4rem;
+  font-size: 32px;
   font-weight: 900;
-  color: #ffffff;
+  color: #11b9d6;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   letter-spacing: -0.5px;
 }
@@ -1148,7 +1148,7 @@ body::before {
   }
 
   .semester-title {
-    font-size: 1.8rem;
+    font-size: 28px;
   }
 
   .semester-icon {
@@ -1244,7 +1244,7 @@ body::before {
   }
 
   .semester-title {
-    font-size: 2.1rem;
+    font-size: 34px;
   }
 
   .course-title {
@@ -1428,7 +1428,7 @@ body::before {
   }
 
   .semester-title {
-    font-size: 1.8rem;
+    font-size: 28px;
     font-weight: 900;
     letter-spacing: -0.5px;
   }
@@ -1792,7 +1792,7 @@ body::before {
   }
 
   .semester-title {
-    font-size: 2.4rem;
+    font-size: 38px;
     font-weight: 900;
     letter-spacing: -0.8px;
   }
@@ -2225,7 +2225,7 @@ body::before {
         }
 
         .semester-title {
-            font-size: 0.9rem;
+            font-size: 14px;
             font-weight: 800;
             margin-bottom: 0px;
             line-height: 1.1;
