@@ -202,8 +202,8 @@ body::before {
   justify-content: center;
 }
 
-.nav-button.ssd {
-  background: linear-gradient(45deg, var(--accent-cyan), var(--accent-teal));
+.nav-button.question-bank {
+  background: linear-gradient(45deg, #10b981, #059669);
 }
 .nav-button.results {
   background: linear-gradient(45deg, #ef7a6a, #d94f3b); /* muted coral for contrast */
