@@ -1403,7 +1403,7 @@ body::before {
   }
 
   .nav-container {
-    gap: 6px;
+    gap: 12px;
     margin-bottom: 14px;
   }
 
@@ -1418,6 +1418,11 @@ body::before {
 
   .nav-button i {
     font-size: 0.75rem;
+  }
+
+  .nav-button:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
 
   .semester-header {
@@ -1438,7 +1443,7 @@ body::before {
   }
 
   .semester-buttons {
-    gap: 6px;
+    gap: 12px;
     margin-bottom: 14px;
   }
 
@@ -1453,6 +1458,15 @@ body::before {
 
   .semester-button i {
     font-size: 0.75rem;
+  }
+
+  .semester-button:hover {
+    transform: translateY(-4px) scale(1.06);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4), 0 0 20px rgba(139, 92, 246, 0.3);
+  }
+
+  .semester-button:active {
+    transform: translateY(1px) scale(0.98);
   }
 
   .courses-container {
@@ -1516,7 +1530,7 @@ body::before {
   }
 
   .course-buttons {
-    gap: 6px;
+    gap: 10px;
     flex-wrap: wrap;
   }
 
@@ -1533,8 +1547,8 @@ body::before {
   }
 
   .course-button:hover {
-    transform: translateY(-4px) scale(1.06);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35), 0 0 20px rgba(34, 211, 238, 0.2);
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4), 0 0 24px rgba(34, 211, 238, 0.3);
     animation: buttonGlow 400ms ease-in-out forwards;
   }
 
